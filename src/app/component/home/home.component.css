@@ -1,0 +1,38 @@
+.container-banner{
+  display: flex;
+  justify-content:center;
+
+}
+
+
+.banner {
+  background-image: url("../../../bannerimag.jpeg");
+}
+/* 
+.banner h1 {
+  font-size: 50px;
+ 
+  font-weight: bold;
+  position: static;
+} */
+
+.about {
+  display: flex;
+height: 794px;
+justify-content: center;
+align-items: center;
+gap: 60px;
+flex-shrink: 0;
+}
+
+.cards{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;
+align-items: center;
+}
+.work{
+display: flex;
+    padding: 10px;
+}
